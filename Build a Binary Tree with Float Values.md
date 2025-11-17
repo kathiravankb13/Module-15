@@ -1,4 +1,5 @@
-# Ex. No: 15A - Build a Binary Tree with Float Values
+
+# Ex. No: 15A - Build a Binary Tree consist of a root, left and right node.
 
 ## AIM:
 To write a Python program to build a binary tree with a root, left, and right node using floating-point values.
@@ -19,11 +20,20 @@ To write a Python program to build a binary tree with a root, left, and right no
 ## PYTHON PROGRAM
 
 ```
-ENTER YOUR CODE
+from binarytree import Node
+l=[]
+for i in range(3):
+    x = input()
+    l.append(x)
+print("Binary Tree :")
+for i in l:
+    print(i,"--> ",end = "")
+
 ```
 
 ## OUTPUT
-```
-```
+![image](https://github.com/user-attachments/assets/343888a4-5f5c-4db8-a692-ab922327c287)
+
 
 ## RESULT
+Thus the Python program to build a binary tree with a root, left, and right node is successfully verified successfully.
